@@ -1,0 +1,27 @@
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\bin\Debug\netcoreapp3.1\Chat_Project.exe
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\bin\Debug\netcoreapp3.1\Chat_Project.deps.json
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\bin\Debug\netcoreapp3.1\Chat_Project.runtimeconfig.json
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\bin\Debug\netcoreapp3.1\Chat_Project.runtimeconfig.dev.json
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\bin\Debug\netcoreapp3.1\Chat_Project.dll
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\bin\Debug\netcoreapp3.1\Chat_Project.pdb
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\obj\Debug\netcoreapp3.1\Chat_Project.csprojAssemblyReference.cache
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\obj\Debug\netcoreapp3.1\Chat_Project.Login_form.resources
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\obj\Debug\netcoreapp3.1\Chat_Project.csproj.GenerateResource.cache
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\obj\Debug\netcoreapp3.1\Chat_Project.AssemblyInfoInputs.cache
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\obj\Debug\netcoreapp3.1\Chat_Project.AssemblyInfo.cs
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\obj\Debug\netcoreapp3.1\Chat_Project.csproj.CoreCompileInputs.cache
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\obj\Debug\netcoreapp3.1\Chat_Project.dll
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\obj\Debug\netcoreapp3.1\Chat_Project.pdb
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\obj\Debug\netcoreapp3.1\Chat_Project.genruntimeconfig.cache
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\obj\Debug\netcoreapp3.1\Chat_Project.Welcome_form.resources
+C:\Users\Admin\Desktop\đồ án\Chat_Project\obj\Debug\netcoreapp3.1\Chat_Project.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\đồ án\Chat_Project\obj\Debug\netcoreapp3.1\CLIENT.client.resources
+C:\Users\Admin\Desktop\đồ án\Chat_Project\obj\Debug\netcoreapp3.1\SERVER.server.resources
+C:\Users\Admin\Desktop\đồ án\Chat_Project\obj\Debug\netcoreapp3.1\Client_Server_Optional.Welcome.resources
+C:\Users\Admin\Desktop\đồ án\Chat_Project\obj\Debug\netcoreapp3.1\Chat_Project.Welcome_form.resources
+C:\Users\Admin\Desktop\đồ án\Chat_Project\obj\Debug\netcoreapp3.1\Chat_Project.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\đồ án\Chat_Project\obj\Debug\netcoreapp3.1\Chat_Project.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\đồ án\Chat_Project\obj\Debug\netcoreapp3.1\Chat_Project.AssemblyInfo.cs
+C:\Users\Admin\Desktop\đồ án\Chat_Project\obj\Debug\netcoreapp3.1\Chat_Project.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\đồ án\Chat_Project\obj\Debug\netcoreapp3.1\Chat_Project.dll
+C:\Users\Admin\Desktop\đồ án\Chat_Project\obj\Debug\netcoreapp3.1\Chat_Project.pdb

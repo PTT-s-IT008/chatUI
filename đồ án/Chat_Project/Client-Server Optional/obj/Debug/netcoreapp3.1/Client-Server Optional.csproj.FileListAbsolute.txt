@@ -1,0 +1,53 @@
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\Client-Server Optional\bin\Debug\netcoreapp3.1\Client-Server Optional.exe
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\Client-Server Optional\bin\Debug\netcoreapp3.1\Client-Server Optional.deps.json
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\Client-Server Optional\bin\Debug\netcoreapp3.1\Client-Server Optional.runtimeconfig.json
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\Client-Server Optional\bin\Debug\netcoreapp3.1\Client-Server Optional.runtimeconfig.dev.json
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\Client-Server Optional\bin\Debug\netcoreapp3.1\Client-Server Optional.dll
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\Client-Server Optional\bin\Debug\netcoreapp3.1\Client-Server Optional.pdb
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client-Server Optional.csprojAssemblyReference.cache
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\CLIENT.client.resources
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\SERVER.server.resources
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client_Server_Optional.Welcome.resources
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client-Server Optional.csproj.GenerateResource.cache
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client-Server Optional.AssemblyInfoInputs.cache
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client-Server Optional.AssemblyInfo.cs
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client-Server Optional.csproj.CoreCompileInputs.cache
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client-Server Optional.dll
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client-Server Optional.pdb
+D:\TAI_LIEU_THUC_HANH\LTTQ\Chat_project\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client-Server Optional.genruntimeconfig.cache
+C:\Users\Admin\Desktop\đồ án\Chat_Project\Client-Server Optional\bin\Debug\netcoreapp3.1\Client-Server Optional.exe
+C:\Users\Admin\Desktop\đồ án\Chat_Project\Client-Server Optional\bin\Debug\netcoreapp3.1\Client-Server Optional.deps.json
+C:\Users\Admin\Desktop\đồ án\Chat_Project\Client-Server Optional\bin\Debug\netcoreapp3.1\Client-Server Optional.runtimeconfig.json
+C:\Users\Admin\Desktop\đồ án\Chat_Project\Client-Server Optional\bin\Debug\netcoreapp3.1\Client-Server Optional.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\đồ án\Chat_Project\Client-Server Optional\bin\Debug\netcoreapp3.1\Client-Server Optional.dll
+C:\Users\Admin\Desktop\đồ án\Chat_Project\Client-Server Optional\bin\Debug\netcoreapp3.1\Client-Server Optional.pdb
+C:\Users\Admin\Desktop\đồ án\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\CLIENT.client.resources
+C:\Users\Admin\Desktop\đồ án\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\SERVER.server.resources
+C:\Users\Admin\Desktop\đồ án\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client_Server_Optional.Welcome.resources
+C:\Users\Admin\Desktop\đồ án\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client-Server Optional.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\đồ án\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client-Server Optional.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\đồ án\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client-Server Optional.AssemblyInfo.cs
+C:\Users\Admin\Desktop\đồ án\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client-Server Optional.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\đồ án\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client-Server Optional.dll
+C:\Users\Admin\Desktop\đồ án\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client-Server Optional.pdb
+C:\Users\Admin\Desktop\đồ án\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client-Server Optional.genruntimeconfig.cache
+C:\Users\Admin\Desktop\đồ án\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client-Server Optional.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\đồ án\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client_Server_Optional.Properties.Resources.resources
+D:\TAI_LIEU_THUC_HANH\LTTQ\chatUI-main\đồ án\Chat_Project\Client-Server Optional\bin\Debug\netcoreapp3.1\Client-Server Optional.exe
+D:\TAI_LIEU_THUC_HANH\LTTQ\chatUI-main\đồ án\Chat_Project\Client-Server Optional\bin\Debug\netcoreapp3.1\Client-Server Optional.deps.json
+D:\TAI_LIEU_THUC_HANH\LTTQ\chatUI-main\đồ án\Chat_Project\Client-Server Optional\bin\Debug\netcoreapp3.1\Client-Server Optional.runtimeconfig.json
+D:\TAI_LIEU_THUC_HANH\LTTQ\chatUI-main\đồ án\Chat_Project\Client-Server Optional\bin\Debug\netcoreapp3.1\Client-Server Optional.runtimeconfig.dev.json
+D:\TAI_LIEU_THUC_HANH\LTTQ\chatUI-main\đồ án\Chat_Project\Client-Server Optional\bin\Debug\netcoreapp3.1\Client-Server Optional.dll
+D:\TAI_LIEU_THUC_HANH\LTTQ\chatUI-main\đồ án\Chat_Project\Client-Server Optional\bin\Debug\netcoreapp3.1\Client-Server Optional.pdb
+D:\TAI_LIEU_THUC_HANH\LTTQ\chatUI-main\đồ án\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client-Server Optional.csprojAssemblyReference.cache
+D:\TAI_LIEU_THUC_HANH\LTTQ\chatUI-main\đồ án\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\CLIENT.client.resources
+D:\TAI_LIEU_THUC_HANH\LTTQ\chatUI-main\đồ án\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client_Server_Optional.Properties.Resources.resources
+D:\TAI_LIEU_THUC_HANH\LTTQ\chatUI-main\đồ án\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\SERVER.server.resources
+D:\TAI_LIEU_THUC_HANH\LTTQ\chatUI-main\đồ án\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client_Server_Optional.Welcome.resources
+D:\TAI_LIEU_THUC_HANH\LTTQ\chatUI-main\đồ án\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client-Server Optional.csproj.GenerateResource.cache
+D:\TAI_LIEU_THUC_HANH\LTTQ\chatUI-main\đồ án\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client-Server Optional.AssemblyInfoInputs.cache
+D:\TAI_LIEU_THUC_HANH\LTTQ\chatUI-main\đồ án\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client-Server Optional.AssemblyInfo.cs
+D:\TAI_LIEU_THUC_HANH\LTTQ\chatUI-main\đồ án\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client-Server Optional.csproj.CoreCompileInputs.cache
+D:\TAI_LIEU_THUC_HANH\LTTQ\chatUI-main\đồ án\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client-Server Optional.dll
+D:\TAI_LIEU_THUC_HANH\LTTQ\chatUI-main\đồ án\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client-Server Optional.pdb
+D:\TAI_LIEU_THUC_HANH\LTTQ\chatUI-main\đồ án\Chat_Project\Client-Server Optional\obj\Debug\netcoreapp3.1\Client-Server Optional.genruntimeconfig.cache

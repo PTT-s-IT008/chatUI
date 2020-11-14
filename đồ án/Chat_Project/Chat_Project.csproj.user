@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Client-Server Optional\client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Client-Server Optional\server.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Client-Server Optional\Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Welcome_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

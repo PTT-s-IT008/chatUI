@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\đồ án\\Chat_Project\\Client-Server Optional\\Client-Server Optional.csproj": {}
+    "D:\\TAI_LIEU_THUC_HANH\\LTTQ\\chatUI-main\\đồ án\\Chat_Project\\Client-Server Optional\\Client-Server Optional.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\đồ án\\Chat_Project\\Client-Server Optional\\Client-Server Optional.csproj": {
+    "D:\\TAI_LIEU_THUC_HANH\\LTTQ\\chatUI-main\\đồ án\\Chat_Project\\Client-Server Optional\\Client-Server Optional.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\đồ án\\Chat_Project\\Client-Server Optional\\Client-Server Optional.csproj",
+        "projectUniqueName": "D:\\TAI_LIEU_THUC_HANH\\LTTQ\\chatUI-main\\đồ án\\Chat_Project\\Client-Server Optional\\Client-Server Optional.csproj",
         "projectName": "Client-Server Optional",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\đồ án\\Chat_Project\\Client-Server Optional\\Client-Server Optional.csproj",
+        "projectPath": "D:\\TAI_LIEU_THUC_HANH\\LTTQ\\chatUI-main\\đồ án\\Chat_Project\\Client-Server Optional\\Client-Server Optional.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\đồ án\\Chat_Project\\Client-Server Optional\\obj\\",
+        "outputPath": "D:\\TAI_LIEU_THUC_HANH\\LTTQ\\chatUI-main\\đồ án\\Chat_Project\\Client-Server Optional\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

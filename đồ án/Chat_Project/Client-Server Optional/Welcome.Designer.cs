@@ -30,12 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Welcome));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.host_btn = new Client_Server_Optional.CircleButton();
             this.join_btn = new Client_Server_Optional.CircleButton();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -48,6 +48,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(640, 107);
             this.panel1.TabIndex = 3;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(256, -10);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(125, 117);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
             // 
             // host_btn
             // 
@@ -104,16 +114,6 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "Joning";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(256, -10);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(125, 117);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
-            // 
             // Welcome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -133,6 +133,7 @@
             this.Text = "Welcome";
             this.Load += new System.EventHandler(this.Welcome_Load);
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Welcome_MouseClick);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Welcome_MouseDown);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

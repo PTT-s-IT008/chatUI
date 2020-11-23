@@ -4,6 +4,9 @@
     <Compile Update="CircleButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Update="RoundedTextbox.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Update="Welcome.cs">
       <SubType>Form</SubType>
     </Compile>

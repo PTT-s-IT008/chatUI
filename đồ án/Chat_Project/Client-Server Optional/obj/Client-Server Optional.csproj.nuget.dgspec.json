@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TAI_LIEU_THUC_HANH\\LTTQ\\chatUI-main\\đồ án\\Chat_Project\\Client-Server Optional\\Client-Server Optional.csproj": {}
+    "D:\\GitHubRepo\\chatUI\\đồ án\\Chat_Project\\Client-Server Optional\\Client-Server Optional.csproj": {}
   },
   "projects": {
-    "D:\\TAI_LIEU_THUC_HANH\\LTTQ\\chatUI-main\\đồ án\\Chat_Project\\Client-Server Optional\\Client-Server Optional.csproj": {
+    "D:\\GitHubRepo\\chatUI\\đồ án\\Chat_Project\\Client-Server Optional\\Client-Server Optional.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TAI_LIEU_THUC_HANH\\LTTQ\\chatUI-main\\đồ án\\Chat_Project\\Client-Server Optional\\Client-Server Optional.csproj",
+        "projectUniqueName": "D:\\GitHubRepo\\chatUI\\đồ án\\Chat_Project\\Client-Server Optional\\Client-Server Optional.csproj",
         "projectName": "Client-Server Optional",
-        "projectPath": "D:\\TAI_LIEU_THUC_HANH\\LTTQ\\chatUI-main\\đồ án\\Chat_Project\\Client-Server Optional\\Client-Server Optional.csproj",
+        "projectPath": "D:\\GitHubRepo\\chatUI\\đồ án\\Chat_Project\\Client-Server Optional\\Client-Server Optional.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\TAI_LIEU_THUC_HANH\\LTTQ\\chatUI-main\\đồ án\\Chat_Project\\Client-Server Optional\\obj\\",
+        "outputPath": "D:\\GitHubRepo\\chatUI\\đồ án\\Chat_Project\\Client-Server Optional\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -55,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

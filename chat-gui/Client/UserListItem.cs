@@ -8,13 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Client.Controls
+namespace Client
 {
-    public partial class UserlistItem : UserControl
+    public partial class UserListItem : UserControl
     {
-        public UserlistItem()
+        public string username { get; set; }
+        public UserListItem()
         {
             InitializeComponent();
         }
+        public void validate()
+        {
+            this.label1.Text = username;
+        }
+
     }
 }

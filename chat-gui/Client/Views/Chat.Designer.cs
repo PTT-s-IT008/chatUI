@@ -36,7 +36,6 @@
             this.sendButton = new System.Windows.Forms.Button();
             this.welcomeLabel = new System.Windows.Forms.Label();
             this.messages = new System.Windows.Forms.ListBox();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
@@ -48,7 +47,7 @@
             this.userlist.Margin = new System.Windows.Forms.Padding(4);
             this.userlist.Name = "userlist";
             this.userlist.SelectionMode = System.Windows.Forms.SelectionMode.None;
-            this.userlist.Size = new System.Drawing.Size(144, 4);
+            this.userlist.Size = new System.Drawing.Size(144, 388);
             this.userlist.TabIndex = 0;
             this.userlist.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -118,19 +117,11 @@
             this.messages.Size = new System.Drawing.Size(685, 356);
             this.messages.TabIndex = 6;
             // 
-            // panel1
-            // 
-            this.panel1.Location = new System.Drawing.Point(10, 53);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(150, 400);
-            this.panel1.TabIndex = 8;
-            // 
             // Chat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(872, 548);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.welcomeLabel);
             this.Controls.Add(this.messages);
             this.Controls.Add(this.sendButton);
@@ -156,7 +147,6 @@
         private System.Windows.Forms.Button sendButton;
         private System.Windows.Forms.Label welcomeLabel;
         private System.Windows.Forms.ListBox messages;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Timer timer1;
     }
 }

@@ -1,7 +1,7 @@
 ﻿
-namespace Client.Controls
+namespace Client
 {
-    partial class UserlistItem
+    partial class UserListItem
     {
         /// <summary> 
         /// Required designer variable.
@@ -29,24 +29,24 @@ namespace Client.Controls
         /// </summary>
         private void InitializeComponent()
         {
-            this.username = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // username
+            // label1
             // 
-            this.username.AutoSize = true;
-            this.username.Location = new System.Drawing.Point(4, 16);
-            this.username.Name = "username";
-            this.username.Size = new System.Drawing.Size(71, 17);
-            this.username.TabIndex = 0;
-            this.username.Text = "username";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(18, 16);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(46, 17);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "label1";
             // 
-            // UserlistItem
+            // UserListItem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.username);
-            this.Name = "UserlistItem";
+            this.Controls.Add(this.label1);
+            this.Name = "UserListItem";
             this.Size = new System.Drawing.Size(150, 50);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -55,6 +55,6 @@ namespace Client.Controls
 
         #endregion
 
-        private System.Windows.Forms.Label username;
+        private System.Windows.Forms.Label label1;
     }
 }

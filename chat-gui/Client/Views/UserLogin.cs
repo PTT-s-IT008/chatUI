@@ -93,9 +93,10 @@ namespace Client.Views
                      "Connection error",
                      MessageBoxButtons.OK,
                      MessageBoxIcon.Error);
+                return;
             }
 
-            if (reply.MessageList.First() == "success")
+            if ( reply.MessageList.First() == "success" )
             {
                 client.User = new ChatUser(usernameTextBox.Text, passwordTextBox.Text);
                 var frm = new Chat(client);

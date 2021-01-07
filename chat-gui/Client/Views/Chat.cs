@@ -103,6 +103,9 @@ namespace Client.Views
                 ChatMessage joinCr = new ChatMessage(ChatMessage.Header.JOIN_CR);
                 joinCr.addData(chatrooms.Text);
                 client.sendMessage(joinCr);
+
+                ClearUserList();
+                RenderUserList();
             }
         }
 
@@ -149,10 +152,23 @@ namespace Client.Views
         {
             foreach(User user in usersBindingList)
             {
+                var item = new UserListItem
+                {
+                    username = user.Login
+                };
+                item.validate();
+                item.Dock = DockStyle.Top;
+                panel1.Controls.Add(item);
+                panel1.Show();
                 
             }
         }
+        private void ClearUserList()
+        {
+            panel1.Controls.Clear();
+        }
 
+       
         /// <summary>
         /// Periodically check availables chatrooms (from a thread)
         /// </summary>
@@ -249,6 +265,9 @@ namespace Client.Views
             usersBindingList = new ThreadedBindingList<User>();
             client.UsersBindingList = usersBindingList;
             userlist.DataSource = usersBindingList;
+
+
+            
 
             messagesBindingList = new ThreadedBindingList<string>();
             client.MessagesBindingList = messagesBindingList;

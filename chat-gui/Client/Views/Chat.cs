@@ -317,5 +317,25 @@ namespace Client.Views
         {
             this.Dispose();
         }
+
+        private void sendButton_MouseHover(object sender, EventArgs e)
+        {
+            sendButton.Image = global::Client.Properties.Resources.sent1;
+        }
+
+        private void sendButton_MouseLeave(object sender, EventArgs e)
+        {
+            sendButton.Image = global::Client.Properties.Resources.sent3;
+        }
+
+        private void button1_MouseHover(object sender, EventArgs e)
+        {
+            sendButton.Image = global::Client.Properties.Resources.close_window_32p1x;
+        }
+
+        private void button1_MouseLeave(object sender, EventArgs e)
+        {
+            sendButton.Image = global::Client.Properties.Resources.close_window_32px;
+        }
     }
 }

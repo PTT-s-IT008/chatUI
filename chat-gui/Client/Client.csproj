@@ -124,6 +124,24 @@
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sent1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sent2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sent3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_window_32p1x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_window_32px.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -78,7 +78,7 @@
             this.Cancel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Cancel.Location = new System.Drawing.Point(337, 13);
             this.Cancel.Name = "Cancel";
-            this.Cancel.Size = new System.Drawing.Size(28, 23);
+            this.Cancel.Size = new System.Drawing.Size(28, 28);
             this.Cancel.TabIndex = 4;
             this.Cancel.Text = "X";
             this.Cancel.UseVisualStyleBackColor = false;

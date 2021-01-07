@@ -277,5 +277,10 @@ namespace Client.Views
             client.Quit = true;
             client.Logged = false;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

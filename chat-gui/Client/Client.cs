@@ -334,5 +334,11 @@ namespace Client
                     break;
             }
         }
+
+        public void Disconnect()
+        {
+            this.Quit = true;
+            this.logged = false;
+        }
     }
 }

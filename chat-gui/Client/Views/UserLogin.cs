@@ -192,6 +192,7 @@ namespace Client.Views
             Welcome frm = new Welcome();
             frm.Show();
             this.Hide();
+            
         }
     }
 }

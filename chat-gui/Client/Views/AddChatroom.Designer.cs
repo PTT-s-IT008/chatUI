@@ -31,6 +31,7 @@
             this.createChatroomButton = new System.Windows.Forms.Button();
             this.chatroomTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.Cancel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // createChatroomButton
@@ -40,7 +41,7 @@
             this.createChatroomButton.Font = new System.Drawing.Font("Bahnschrift", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.createChatroomButton.ForeColor = System.Drawing.Color.White;
             this.createChatroomButton.Location = new System.Drawing.Point(114, 146);
-            this.createChatroomButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.createChatroomButton.Margin = new System.Windows.Forms.Padding(4);
             this.createChatroomButton.Name = "createChatroomButton";
             this.createChatroomButton.Size = new System.Drawing.Size(155, 38);
             this.createChatroomButton.TabIndex = 0;
@@ -52,7 +53,7 @@
             // 
             this.chatroomTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chatroomTextBox.Location = new System.Drawing.Point(13, 90);
-            this.chatroomTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chatroomTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.chatroomTextBox.Name = "chatroomTextBox";
             this.chatroomTextBox.Size = new System.Drawing.Size(353, 30);
             this.chatroomTextBox.TabIndex = 1;
@@ -69,18 +70,36 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Room Name";
             // 
+            // Cancel
+            // 
+            this.Cancel.BackColor = System.Drawing.Color.Red;
+            this.Cancel.FlatAppearance.BorderSize = 0;
+            this.Cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Cancel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Cancel.Location = new System.Drawing.Point(337, 13);
+            this.Cancel.Name = "Cancel";
+            this.Cancel.Size = new System.Drawing.Size(28, 23);
+            this.Cancel.TabIndex = 4;
+            this.Cancel.Text = "X";
+            this.Cancel.UseVisualStyleBackColor = false;
+            this.Cancel.Click += new System.EventHandler(this.Cancel_Click);
+            // 
             // AddChatroom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(379, 225);
+            this.Controls.Add(this.Cancel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.chatroomTextBox);
             this.Controls.Add(this.createChatroomButton);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AddChatroom";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Create a chatroom";
+            this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -91,5 +110,6 @@
         private System.Windows.Forms.Button createChatroomButton;
         private System.Windows.Forms.TextBox chatroomTextBox;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button Cancel;
     }
 }

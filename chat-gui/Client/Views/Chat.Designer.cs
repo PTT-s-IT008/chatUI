@@ -28,13 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.userlist = new System.Windows.Forms.ListBox();
             this.chatrooms = new System.Windows.Forms.ComboBox();
             this.createChatroomButton = new System.Windows.Forms.Button();
             this.messageTextBox = new System.Windows.Forms.TextBox();
             this.sendButton = new System.Windows.Forms.Button();
-            this.messages = new System.Windows.Forms.ListBox();
             this.welcomeLabel = new System.Windows.Forms.Label();
+            this.messages = new System.Windows.Forms.ListBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // userlist
@@ -42,10 +45,10 @@
             this.userlist.FormattingEnabled = true;
             this.userlist.ItemHeight = 16;
             this.userlist.Location = new System.Drawing.Point(16, 31);
-            this.userlist.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.userlist.Margin = new System.Windows.Forms.Padding(4);
             this.userlist.Name = "userlist";
             this.userlist.SelectionMode = System.Windows.Forms.SelectionMode.None;
-            this.userlist.Size = new System.Drawing.Size(144, 420);
+            this.userlist.Size = new System.Drawing.Size(144, 4);
             this.userlist.TabIndex = 0;
             this.userlist.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -54,7 +57,7 @@
             this.chatrooms.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.chatrooms.FormattingEnabled = true;
             this.chatrooms.Location = new System.Drawing.Point(169, 31);
-            this.chatrooms.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chatrooms.Margin = new System.Windows.Forms.Padding(4);
             this.chatrooms.Name = "chatrooms";
             this.chatrooms.Size = new System.Drawing.Size(517, 24);
             this.chatrooms.TabIndex = 1;
@@ -63,7 +66,7 @@
             // createChatroomButton
             // 
             this.createChatroomButton.Location = new System.Drawing.Point(696, 31);
-            this.createChatroomButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.createChatroomButton.Margin = new System.Windows.Forms.Padding(4);
             this.createChatroomButton.Name = "createChatroomButton";
             this.createChatroomButton.Size = new System.Drawing.Size(160, 28);
             this.createChatroomButton.TabIndex = 2;
@@ -74,7 +77,7 @@
             // messageTextBox
             // 
             this.messageTextBox.Location = new System.Drawing.Point(169, 427);
-            this.messageTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.messageTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.messageTextBox.Name = "messageTextBox";
             this.messageTextBox.Size = new System.Drawing.Size(592, 22);
             this.messageTextBox.TabIndex = 4;
@@ -85,24 +88,13 @@
             // sendButton
             // 
             this.sendButton.Location = new System.Drawing.Point(771, 426);
-            this.sendButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.sendButton.Margin = new System.Windows.Forms.Padding(4);
             this.sendButton.Name = "sendButton";
             this.sendButton.Size = new System.Drawing.Size(85, 27);
             this.sendButton.TabIndex = 5;
             this.sendButton.Text = "Send";
             this.sendButton.UseVisualStyleBackColor = true;
             this.sendButton.Click += new System.EventHandler(this.sendButton_Click);
-            // 
-            // messages
-            // 
-            this.messages.FormattingEnabled = true;
-            this.messages.ItemHeight = 16;
-            this.messages.Location = new System.Drawing.Point(169, 66);
-            this.messages.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.messages.Name = "messages";
-            this.messages.SelectionMode = System.Windows.Forms.SelectionMode.None;
-            this.messages.Size = new System.Drawing.Size(685, 356);
-            this.messages.TabIndex = 6;
             // 
             // welcomeLabel
             // 
@@ -115,11 +107,30 @@
             this.welcomeLabel.Text = "welcomeLabel";
             this.welcomeLabel.Click += new System.EventHandler(this.label1_Click);
             // 
+            // messages
+            // 
+            this.messages.FormattingEnabled = true;
+            this.messages.ItemHeight = 16;
+            this.messages.Location = new System.Drawing.Point(169, 66);
+            this.messages.Margin = new System.Windows.Forms.Padding(4);
+            this.messages.Name = "messages";
+            this.messages.SelectionMode = System.Windows.Forms.SelectionMode.None;
+            this.messages.Size = new System.Drawing.Size(685, 356);
+            this.messages.TabIndex = 6;
+            // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(10, 53);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(150, 400);
+            this.panel1.TabIndex = 8;
+            // 
             // Chat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(872, 548);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.welcomeLabel);
             this.Controls.Add(this.messages);
             this.Controls.Add(this.sendButton);
@@ -127,7 +138,7 @@
             this.Controls.Add(this.createChatroomButton);
             this.Controls.Add(this.chatrooms);
             this.Controls.Add(this.userlist);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Chat";
             this.Text = "Chat";
             this.Load += new System.EventHandler(this.Chat_Load);
@@ -143,7 +154,9 @@
         private System.Windows.Forms.Button createChatroomButton;
         private System.Windows.Forms.TextBox messageTextBox;
         private System.Windows.Forms.Button sendButton;
-        private System.Windows.Forms.ListBox messages;
         private System.Windows.Forms.Label welcomeLabel;
+        private System.Windows.Forms.ListBox messages;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Timer timer1;
     }
 }

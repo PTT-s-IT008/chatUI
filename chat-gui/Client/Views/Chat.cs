@@ -145,6 +145,14 @@ namespace Client.Views
             
         }
 
+        private void RenderUserList()
+        {
+            foreach(User user in usersBindingList)
+            {
+                
+            }
+        }
+
         /// <summary>
         /// Periodically check availables chatrooms (from a thread)
         /// </summary>

@@ -16,6 +16,32 @@ namespace Client.Views
     /// </summary>
     public partial class AddChatroom : Form
     {
+        #region Draggable
+        private bool mouseDown;
+        private Point lastLocation;
+
+        private void _MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown = true;
+            lastLocation = e.Location;
+        }
+
+        private void _MouseMove(object sender, MouseEventArgs e)
+        {
+            if (mouseDown)
+            {
+                this.Location = new Point(
+                    (this.Location.X - lastLocation.X) + e.X, (this.Location.Y - lastLocation.Y) + e.Y);
+
+                this.Update();
+            }
+        }
+
+        private void _MouseUp(object sender, MouseEventArgs e)
+        {
+            mouseDown = false;
+        }
+        #endregion
         private Client client;
 
         /// <summary>
@@ -24,6 +50,9 @@ namespace Client.Views
         /// <param name="clientParam">Get the client instance</param>
         public AddChatroom(Client clientParam)
         {
+            this.MouseMove += _MouseMove;
+            this.MouseUp += _MouseUp;
+            this.MouseDown += _MouseDown;
             InitializeComponent();
             client = clientParam;
         }
@@ -72,6 +101,11 @@ namespace Client.Views
                         MessageBoxIcon.Error);
             }
             
+        }
+
+        private void Cancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

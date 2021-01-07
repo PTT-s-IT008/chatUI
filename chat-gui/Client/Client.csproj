@@ -37,6 +37,12 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="JTextBox">
+      <HintPath>D:\Downloads\special\JTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="JTextBox2">
+      <HintPath>D:\Downloads\special\JTextBox2.dll</HintPath>
+    </Reference>
     <Reference Include="JThinButton">
       <HintPath>D:\Downloads\special\JThinButton.dll</HintPath>
     </Reference>

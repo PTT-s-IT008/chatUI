@@ -104,8 +104,6 @@ namespace Client.Views
                 joinCr.addData(chatrooms.Text);
                 client.sendMessage(joinCr);
 
-                ClearUserList();
-                RenderUserList();
             }
         }
 
@@ -148,26 +146,7 @@ namespace Client.Views
             
         }
 
-        private void RenderUserList()
-        {
-            foreach(User user in usersBindingList)
-            {
-                var item = new UserListItem
-                {
-                    username = user.Login
-                };
-                item.validate();
-                item.Dock = DockStyle.Top;
-                panel1.Controls.Add(item);
-                panel1.Show();
-                
-            }
-        }
-        private void ClearUserList()
-        {
-            panel1.Controls.Clear();
-        }
-
+        
        
         /// <summary>
         /// Periodically check availables chatrooms (from a thread)

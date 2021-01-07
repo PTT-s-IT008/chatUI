@@ -194,5 +194,10 @@ namespace Client.Views
             this.Hide();
             
         }
+
+        private void UserLogin_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Dispose();
+        }
     }
 }

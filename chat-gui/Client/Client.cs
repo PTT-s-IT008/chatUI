@@ -335,10 +335,6 @@ namespace Client
             }
         }
 
-        public void Disconnect()
-        {
-            this.Quit = true;
-            this.logged = false;
-        }
+        
     }
 }

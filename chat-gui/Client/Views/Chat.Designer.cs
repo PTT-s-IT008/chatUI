@@ -117,7 +117,7 @@
             this.welcomeLabel.Location = new System.Drawing.Point(247, 12);
             this.welcomeLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.welcomeLabel.Name = "welcomeLabel";
-            this.welcomeLabel.Size = new System.Drawing.Size(311, 53);
+            this.welcomeLabel.Size = new System.Drawing.Size(301, 52);
             this.welcomeLabel.TabIndex = 7;
             this.welcomeLabel.Text = "welcomeLabel";
             this.welcomeLabel.Click += new System.EventHandler(this.label1_Click);
@@ -188,6 +188,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Chat";
             this.Text = "Chat";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Chat_FormClosed);
             this.Load += new System.EventHandler(this.Chat_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

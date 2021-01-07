@@ -68,12 +68,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="ThreadedBindingList.cs" />
-    <Compile Include="UserListItem.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserListItem.Designer.cs">
-      <DependentUpon>UserListItem.cs</DependentUpon>
-    </Compile>
     <Compile Include="Views\AddChatroom.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,9 +107,6 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserListItem.resx">
-      <DependentUpon>UserListItem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\AddChatroom.resx">
       <DependentUpon>AddChatroom.cs</DependentUpon>

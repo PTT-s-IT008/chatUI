@@ -64,7 +64,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(277, 21);
             this.textBox2.TabIndex = 1;
-            this.textBox2.Text = "2300";
+            this.textBox2.Text = "7999";
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label1
@@ -179,6 +179,7 @@
             this.Name = "Welcome";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Client chat: Welcome";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Welcome_FormClosed);
             this.Load += new System.EventHandler(this.Welcome_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

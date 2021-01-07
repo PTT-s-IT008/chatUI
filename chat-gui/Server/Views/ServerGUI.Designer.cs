@@ -36,9 +36,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(174, 358);
+            this.button1.Location = new System.Drawing.Point(232, 441);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(121, 23);
+            this.button1.Size = new System.Drawing.Size(161, 28);
             this.button1.TabIndex = 0;
             this.button1.Text = "Start the server";
             this.button1.UseVisualStyleBackColor = true;
@@ -46,42 +47,46 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(212, 19);
+            this.textBox1.Location = new System.Drawing.Point(283, 23);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(83, 20);
+            this.textBox1.Size = new System.Drawing.Size(109, 22);
             this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "2300";
+            this.textBox1.Text = "7999";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(136, 22);
+            this.label1.Location = new System.Drawing.Point(181, 27);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 13);
+            this.label1.Size = new System.Drawing.Size(94, 17);
             this.label1.TabIndex = 2;
             this.label1.Text = "Listening port";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtConsole
             // 
-            this.txtConsole.Location = new System.Drawing.Point(12, 49);
+            this.txtConsole.Location = new System.Drawing.Point(16, 60);
+            this.txtConsole.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtConsole.Multiline = true;
             this.txtConsole.Name = "txtConsole";
-            this.txtConsole.Size = new System.Drawing.Size(432, 300);
+            this.txtConsole.Size = new System.Drawing.Size(575, 368);
             this.txtConsole.TabIndex = 3;
             this.txtConsole.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // ServerGUI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(456, 390);
+            this.ClientSize = new System.Drawing.Size(608, 480);
             this.Controls.Add(this.txtConsole);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ServerGUI";
             this.Text = "Chat server";
             this.Load += new System.EventHandler(this.ServerGUI_Load);

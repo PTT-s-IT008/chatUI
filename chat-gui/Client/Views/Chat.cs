@@ -282,5 +282,10 @@ namespace Client.Views
         {
             this.Close();
         }
+
+        private void Chat_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Dispose();
+        }
     }
 }

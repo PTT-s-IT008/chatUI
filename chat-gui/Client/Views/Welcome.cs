@@ -102,5 +102,10 @@ namespace Client.Views
         {
 
         }
+
+        private void Welcome_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Dispose();
+        }
     }
 }

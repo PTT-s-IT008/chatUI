@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Chat));
             this.userlist = new System.Windows.Forms.ListBox();
             this.chatrooms = new System.Windows.Forms.ComboBox();
             this.createChatroomButton = new System.Windows.Forms.Button();
@@ -188,6 +189,7 @@
             this.Controls.Add(this.chatrooms);
             this.Controls.Add(this.userlist);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Chat";
             this.Text = "Chat";

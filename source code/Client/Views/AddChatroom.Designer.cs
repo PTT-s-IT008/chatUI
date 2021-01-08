@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddChatroom));
             this.createChatroomButton = new System.Windows.Forms.Button();
             this.chatroomTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -95,6 +96,7 @@
             this.Controls.Add(this.chatroomTextBox);
             this.Controls.Add(this.createChatroomButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AddChatroom";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

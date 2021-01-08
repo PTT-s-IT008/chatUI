@@ -149,9 +149,9 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(196)))), ((int)(((byte)(255)))));
             this.button1.Image = global::Client.Properties.Resources.close_window_32px;
-            this.button1.Location = new System.Drawing.Point(824, 12);
+            this.button1.Location = new System.Drawing.Point(818, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(30, 31);
+            this.button1.Size = new System.Drawing.Size(36, 31);
             this.button1.TabIndex = 9;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);

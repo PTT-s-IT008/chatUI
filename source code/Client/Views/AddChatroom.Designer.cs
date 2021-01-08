@@ -100,7 +100,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AddChatroom";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Create a chatroom";
+            this.Text = "Create";
             this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();

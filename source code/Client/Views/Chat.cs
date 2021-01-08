@@ -323,12 +323,12 @@ namespace Client.Views
 
         private void button1_MouseHover(object sender, EventArgs e)
         {
-            sendButton.Image = global::Client.Properties.Resources.close_window_32p1x;
+            button1.Image = global::Client.Properties.Resources.close_window_32p1x;
         }
 
         private void button1_MouseLeave(object sender, EventArgs e)
         {
-            sendButton.Image = global::Client.Properties.Resources.close_window_32px;
+            button1.Image = global::Client.Properties.Resources.close_window_32px;
         }
     }
 }

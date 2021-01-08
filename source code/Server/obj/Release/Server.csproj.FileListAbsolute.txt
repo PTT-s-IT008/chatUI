@@ -1,0 +1,13 @@
+D:\GitHubRepo\chatUI\source code\Server\bin\Release\Server.exe.config
+D:\GitHubRepo\chatUI\source code\Server\bin\Release\Server.exe
+D:\GitHubRepo\chatUI\source code\Server\bin\Release\Server.pdb
+D:\GitHubRepo\chatUI\source code\Server\bin\Release\Chat.dll
+D:\GitHubRepo\chatUI\source code\Server\bin\Release\Chat.pdb
+D:\GitHubRepo\chatUI\source code\Server\bin\Release\Chat.dll.config
+D:\GitHubRepo\chatUI\source code\Server\obj\Release\Server.csprojAssemblyReference.cache
+D:\GitHubRepo\chatUI\source code\Server\obj\Release\Server.Views.ServerGUI.resources
+D:\GitHubRepo\chatUI\source code\Server\obj\Release\Server.csproj.GenerateResource.cache
+D:\GitHubRepo\chatUI\source code\Server\obj\Release\Server.csproj.CoreCompileInputs.cache
+D:\GitHubRepo\chatUI\source code\Server\obj\Release\Server.csproj.CopyComplete
+D:\GitHubRepo\chatUI\source code\Server\obj\Release\Server.exe
+D:\GitHubRepo\chatUI\source code\Server\obj\Release\Server.pdb

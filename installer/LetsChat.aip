@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<DOCUMENT Type="Advanced Installer" CreateVersion="17.8" version="17.8" Modules="simple" RootPath="." Language="en" Id="{F0CF1738-F360-46C0-B1BC-68158B42DBD1}">
+<DOCUMENT Type="Advanced Installer" CreateVersion="17.8" version="17.8" Modules="simple" RootPath="." Language="en" Id="{07E58B2F-B9BC-4DBB-8843-2654D8C8FAA0}">
   <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
     <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
     <ROW Property="ALLUSERS" Value="1"/>
     <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
     <ROW Property="CTRLS" Value="2"/>
     <ROW Property="Manufacturer" Value="TTDProduction"/>
-    <ROW Property="ProductCode" Value="1033:{A62EB614-EAC4-4B4C-87D9-842572FA1D41} " Type="16"/>
+    <ROW Property="ProductCode" Value="1033:{01748493-8535-4EFF-AE33-B1B3DEB0A6EF} " Type="16"/>
     <ROW Property="ProductLanguage" Value="1033"/>
     <ROW Property="ProductName" Value="LetsChat"/>
     <ROW Property="ProductVersion" Value="1.0.0" Type="32"/>
     <ROW Property="RUNAPPLICATION" Value="1" Type="4"/>
     <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
-    <ROW Property="UpgradeCode" Value="{42B245F8-2F9E-46AD-8C53-59D1FB0FD16D}"/>
+    <ROW Property="UpgradeCode" Value="{9C523990-7591-4BBF-A33B-8934DAE8EFDF}"/>
     <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
     <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
     <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
@@ -24,28 +24,29 @@
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
     <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
     <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
     <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
-    <ROW Component="APPDIR" ComponentId="{77537D4C-9A1F-4E38-BF3C-49E85BB335A6}" Directory_="APPDIR" Attributes="0"/>
-    <ROW Component="Chat.dll" ComponentId="{9B2175CC-5350-404B-8A36-FB3A94C590D5}" Directory_="APPDIR" Attributes="0" KeyPath="Chat.dll"/>
-    <ROW Component="Client.exe" ComponentId="{AB92AF4E-43FF-4F3B-A1FF-06B9FB836C14}" Directory_="APPDIR" Attributes="0" KeyPath="Client.exe"/>
-    <ROW Component="Microsoft.CSharp.dll" ComponentId="{FF0AEAC3-3C00-471D-B35A-40C2A05CCF79}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.CSharp.dll"/>
-    <ROW Component="ProductInformation" ComponentId="{62DAC635-166E-4B9E-AA2D-0188D4438FB9}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
-    <ROW Component="SHORTCUTDIR" ComponentId="{E8CFDA6E-0480-49B8-A230-225A5916744C}" Directory_="SHORTCUTDIR" Attributes="0"/>
-    <ROW Component="Server.exe.config" ComponentId="{2085E28F-38D9-46A8-A9DD-A726615B6C3E}" Directory_="APPDIR" Attributes="0" KeyPath="Server.exe.config" Type="0"/>
-    <ROW Component="Server.pdb" ComponentId="{D68C0F88-9E58-42A4-A309-CCE5FAF7E4A2}" Directory_="APPDIR" Attributes="0" KeyPath="Server.exe"/>
-    <ROW Component="System.Core.dll" ComponentId="{73C62CD0-EAF4-4EBC-905C-72188C0C644F}" Directory_="APPDIR" Attributes="0" KeyPath="System.Core.dll"/>
-    <ROW Component="System.Data.DataSetExtensions.dll" ComponentId="{B3455FDF-3D69-4EA0-B028-7CE553B15F42}" Directory_="APPDIR" Attributes="0" KeyPath="System.Data.DataSetExtensions.dll"/>
-    <ROW Component="System.Data.dll" ComponentId="{1BB3295B-C730-4F17-A5B1-C61E46A7BBEB}" Directory_="APPDIR" Attributes="0" KeyPath="System.Data.dll"/>
-    <ROW Component="System.Drawing.dll" ComponentId="{1B3F14EF-C8B1-4985-9087-0F96488F7844}" Directory_="APPDIR" Attributes="0" KeyPath="System.Drawing.dll"/>
-    <ROW Component="System.Net.Http.dll" ComponentId="{7F81ACC1-B5B5-476A-8B6D-86DC0E23DF2D}" Directory_="APPDIR" Attributes="0" KeyPath="System.Net.Http.dll"/>
-    <ROW Component="System.Windows.Forms.dll" ComponentId="{8E2C6BF5-F8FD-4277-81F6-A3A2AACA5BE7}" Directory_="APPDIR" Attributes="0" KeyPath="System.Windows.Forms.dll"/>
-    <ROW Component="System.Xml.Linq.dll" ComponentId="{BD364665-2D8C-42F0-BA65-B8C41739B4DB}" Directory_="APPDIR" Attributes="0" KeyPath="System.Xml.Linq.dll"/>
-    <ROW Component="System.Xml.dll" ComponentId="{03D7CAE3-B12E-4FBF-8531-19008CD8E27F}" Directory_="APPDIR" Attributes="0" KeyPath="System.Xml.dll"/>
-    <ROW Component="System.dll" ComponentId="{FF3427EB-0268-4ECA-8420-EA14A495697C}" Directory_="APPDIR" Attributes="0" KeyPath="System.dll"/>
-    <ROW Component="mscorlib.dll" ComponentId="{20D43BA5-F1C4-4D4F-A31B-DB379C67B233}" Directory_="APPDIR" Attributes="0" KeyPath="mscorlib.dll"/>
+    <ROW Component="APPDIR" ComponentId="{A5D2ECFA-CF5F-49B0-812A-25F6F6D605FC}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="Chat.dll" ComponentId="{1F6C2857-91FE-49F4-BA53-FCC26F1323EA}" Directory_="APPDIR" Attributes="0" KeyPath="Chat.dll"/>
+    <ROW Component="Client.exe" ComponentId="{0BAD8C09-A8E0-48E8-B8B4-637E59366047}" Directory_="APPDIR" Attributes="0" KeyPath="Client.exe"/>
+    <ROW Component="Microsoft.CSharp.dll" ComponentId="{233EFC2D-2363-4567-9900-CB4B25E7239C}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.CSharp.dll"/>
+    <ROW Component="ProductInformation" ComponentId="{4C016751-085E-4C74-9D71-AC8CD6C74532}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="SHORTCUTDIR" ComponentId="{C0956FE0-A0C2-4593-8F10-8EFAEF243809}" Directory_="SHORTCUTDIR" Attributes="0"/>
+    <ROW Component="Server.exe.config" ComponentId="{AFBAC4BA-84A7-4A0F-A4B5-283149695CA2}" Directory_="APPDIR" Attributes="0" KeyPath="Server.exe.config" Type="0"/>
+    <ROW Component="Server.pdb" ComponentId="{42F9D27F-0D7C-499B-A17E-6FAECCFFE2E6}" Directory_="APPDIR" Attributes="0" KeyPath="Server.exe"/>
+    <ROW Component="System.Core.dll" ComponentId="{4A18DB44-4075-4E42-A55B-EC27A0DD47FA}" Directory_="APPDIR" Attributes="0" KeyPath="System.Core.dll"/>
+    <ROW Component="System.Data.DataSetExtensions.dll" ComponentId="{2966E6F7-61F2-4AB7-B305-7A6445A2FA03}" Directory_="APPDIR" Attributes="0" KeyPath="System.Data.DataSetExtensions.dll"/>
+    <ROW Component="System.Data.dll" ComponentId="{8C2AA205-2908-47DC-BFFF-19ACF0A4B3F5}" Directory_="APPDIR" Attributes="0" KeyPath="System.Data.dll"/>
+    <ROW Component="System.Drawing.dll" ComponentId="{F24A1375-699C-48D6-B51A-23B784B67C6D}" Directory_="APPDIR" Attributes="0" KeyPath="System.Drawing.dll"/>
+    <ROW Component="System.Net.Http.dll" ComponentId="{3EA81F95-CC47-451F-90CD-DA4578C5A08C}" Directory_="APPDIR" Attributes="0" KeyPath="System.Net.Http.dll"/>
+    <ROW Component="System.Windows.Forms.dll" ComponentId="{D9E00964-DE37-484C-A53A-A7EAD7B568E6}" Directory_="APPDIR" Attributes="0" KeyPath="System.Windows.Forms.dll"/>
+    <ROW Component="System.Xml.Linq.dll" ComponentId="{2240C822-0825-45BC-B4FE-E3FC74D24AA0}" Directory_="APPDIR" Attributes="0" KeyPath="System.Xml.Linq.dll"/>
+    <ROW Component="System.Xml.dll" ComponentId="{CD4A8527-28E6-4191-AF45-4AD578A4E077}" Directory_="APPDIR" Attributes="0" KeyPath="System.Xml.dll"/>
+    <ROW Component="System.dll" ComponentId="{D107C06C-4528-419D-B857-A302063682B9}" Directory_="APPDIR" Attributes="0" KeyPath="System.dll"/>
+    <ROW Component="mscorlib.dll" ComponentId="{61EDB0F5-BB82-417F-B39A-F6164914505C}" Directory_="APPDIR" Attributes="0" KeyPath="mscorlib.dll"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
     <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
@@ -188,6 +189,7 @@
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
     <ROW Shortcut="Client.exe" Directory_="SHORTCUTDIR" Name="Client.exe" Component_="Client.exe" Target="[#Client.exe]" Description="Client.exe" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="Client.exe_1" Directory_="DesktopFolder" Name="Client.exe" Component_="Client.exe" Target="[#Client.exe]" Description="Client.exe" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
     <ATTRIBUTE name="UsedTheme" value="classic"/>

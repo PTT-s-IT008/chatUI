@@ -4,3 +4,4 @@ D:\GitHubRepo\chatUI\source code\Chat\bin\Release\Chat.pdb
 D:\GitHubRepo\chatUI\source code\Chat\obj\Release\Chat.csproj.CoreCompileInputs.cache
 D:\GitHubRepo\chatUI\source code\Chat\obj\Release\Chat.dll
 D:\GitHubRepo\chatUI\source code\Chat\obj\Release\Chat.pdb
+D:\GitHubRepo\chatUI\source code\Chat\obj\Release\Chat.csprojAssemblyReference.cache

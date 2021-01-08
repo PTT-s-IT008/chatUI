@@ -84,7 +84,7 @@ namespace Client.Views
 
             if (reply == null)
             {
-                MessageBox.Show("Server failure",
+                MessageBox.Show("Error on Server",
                      "Connection error",
                      MessageBoxButtons.OK,
                      MessageBoxIcon.Error);

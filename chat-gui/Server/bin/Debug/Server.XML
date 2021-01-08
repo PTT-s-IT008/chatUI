@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Server</name>
+    </assembly>
+    <members>
+        <member name="T:Server.Program">
+            <summary>
+            Server entry point, calling the WinForm which calls the Server class
+            </summary>
+        </member>
+        <member name="T:Server.Server">
+            <summary>
+            The Server class itself
+            </summary>
+        </member>
+        <member name="M:Server.Server.#ctor">
+            <summary>
+            Instanciate objects
+            Load Users and Chatrooms already stored in a static file
+            </summary>
+        </member>
+        <member name="M:Server.Server.run">
+            <summary>
+            Running the server launches 3 threads:
+            Check for the messages sent by users
+            Check if a client has left
+            Create a new TcpClient object if a new client joins
+            </summary>
+        </member>
+        <member name="M:Server.Server.listen">
+            <summary>
+            Listen for new clients and create a new Session for each new client with its own TcpClient instance
+            Since AcceptTcpClient is blocking, this is run in a thread
+            </summary>
+        </member>
+        <member name="M:Server.Server.checkData">
+            <summary>
+            Check data coming from clients
+            </summary>
+        </member>
+        <member name="M:Server.Server.quitCr(Chat.Auth.Session,Chat.Net.Message)">
+            <summary>
+            Check if a client has left a chatroom
+            </summary>
+            <param name="session"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:Server.Server.processData(Chat.Auth.Session,Chat.Net.Message)">
+            <summary>
+            Process data sent by clients
+            </summary>
+            <param name="session">Session from where the message comes from</param>
+            <param name="message">Message received</param>
+        </member>
+        <member name="M:Server.Server.checkQuit">
+            <summary>
+            Check if a client has left
+            </summary>
+        </member>
+        <member name="M:Server.Server.broadcastToChatRoom(Chat.Auth.Session,System.String)">
+            <summary>
+            Function used to send a message to all users in a chatroom
+            </summary>
+            <param name="session"></param>
+            <param name="message"></param>
+        </member>
+        <member name="T:Server.Views.ServerGUI">
+            <summary>
+            Server's WinForm
+            </summary>
+        </member>
+        <member name="M:Server.Views.ServerGUI.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handle the "Start/Stop server" bitton click
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Server.Views.ServerGUI.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Server.Views.ServerGUI.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Server.Views.ServerGUI.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Server.Views.TextBoxStreamWriter">
+            <summary>
+            Class used to write Console output to a WinForm
+            Source: https://saezndaree.wordpress.com/2009/03/29/how-to-redirect-the-consoles-output-to-a-textbox-in-c/
+            </summary>
+        </member>
+    </members>
+</doc>

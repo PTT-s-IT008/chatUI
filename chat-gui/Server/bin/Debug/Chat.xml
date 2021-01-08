@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Chat</name>
+    </assembly>
+    <members>
+        <member name="T:Chat.Auth.UserManager">
+            <summary>
+            Handle users in a manager
+            </summary>
+        </member>
+        <member name="P:Chat.Auth.UserManager.UserList">
+            <summary>
+            Store users in a list
+            </summary>
+        </member>
+        <member name="M:Chat.Auth.UserManager.addUser(System.String,System.String)">
+            <summary>
+            Add an user to the list. Make sure it does not already exist, using his login.
+            </summary>
+            <param name="login"></param>
+            <param name="password"></param>
+        </member>
+        <member name="M:Chat.Auth.UserManager.removeUser(System.String)">
+            <summary>
+            Remove the user from the list based on his login
+            </summary>
+            <param name="login"></param>
+        </member>
+        <member name="M:Chat.Auth.UserManager.getUser(Chat.Auth.User)">
+            <summary>
+            Find an user in the list
+            </summary>
+            <param name="other">User to look for</param>
+            <returns>User found</returns>
+        </member>
+        <member name="M:Chat.Auth.UserManager.authentify(System.String,System.String)">
+            <summary>
+            Auth the user based on his password.
+            </summary>
+            <param name="login"></param>
+            <param name="password"></param>
+        </member>
+        <member name="M:Chat.Auth.UserManager.load(System.String)">
+            <summary>
+            Load the users from a static file
+            </summary>
+            <param name="path">Path to the file</param>
+        </member>
+        <member name="M:Chat.Auth.UserManager.save(System.String)">
+            <summary>
+            Save the current list to a static file.
+            </summary>
+            <param name="path">Path to the file</param>
+        </member>
+        <member name="T:Chat.Auth.SessionManager">
+            <summary>
+            Handle sessions with a manager
+            </summary>
+        </member>
+        <member name="P:Chat.Auth.SessionManager.SessionList">
+            <summary>
+            Store all sessions in a list
+            </summary>
+        </member>
+        <member name="M:Chat.Auth.SessionManager.addSession(Chat.Auth.Session)">
+            <summary>
+            Add a session to the manager. Make sure it is not already stored with the GUID
+            </summary>
+            <param name="other">Other session</param>
+        </member>
+        <member name="M:Chat.Auth.SessionManager.removeSession(System.Guid)">
+            <summary>
+            Delete a session using its token
+            </summary>
+            <param name="token"></param>
+        </member>
+        <member name="T:Chat.Auth.Session">
+            <summary>
+            Create a session for each user
+            </summary>
+        </member>
+        <member name="P:Chat.Auth.Session.Token">
+            <summary>
+            Each session has an unique token
+            </summary>
+        </member>
+        <member name="T:Chat.Auth.User">
+            <summary>
+            Handle an user
+            </summary>
+        </member>
+        <member name="T:Chat.Chat.Chatroom">
+            <summary>
+            Handle a chatroom
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:Chat.Chat.Chatroom.Name" -->
+        <member name="M:Chat.Chat.Chatroom.ToString">
+            <summary>
+            Display a chatroom, useful for the binding list
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Chat.Chat.ChatroomManager">
+            <summary>
+            Handle all chatrooms
+            </summary>
+        </member>
+        <member name="P:Chat.Chat.ChatroomManager.ChatroomList">
+            <summary>
+            Create a list of all chatrooms
+            </summary>
+        </member>
+        <member name="M:Chat.Chat.ChatroomManager.addChatroom(Chat.Chat.Chatroom)">
+            <summary>
+            Add a chatroom if it is not already in the list
+            </summary>
+            <param name="other">Chatroom to add</param>
+        </member>
+        <member name="M:Chat.Chat.ChatroomManager.removeChatroom(System.String)">
+            <summary>
+            Remove a chatroom, based on its name
+            </summary>
+            <param name="name">Chatroom to delete</param>
+        </member>
+        <member name="M:Chat.Chat.ChatroomManager.load(System.String)">
+            <summary>
+            Load chatrooms stored in a static file.
+            </summary>
+            <param name="path">Path to the file</param>
+        </member>
+        <member name="M:Chat.Chat.ChatroomManager.save(System.String)">
+            <summary>
+            Save current chatrooms into a file
+            </summary>
+            <param name="path">Path to static file</param>
+        </member>
+        <member name="T:Chat.Net.Message">
+            <summary>
+            Store a message
+            Each message is composed of a header, which describe its nature (register an user, join a chatroom, quit a chatroom, post a message, etc)
+            Then, its content is stored into a list of strings
+            </summary>
+        </member>
+        <member name="M:Chat.Net.Message.addData(System.String)">
+            <summary>
+            Add data to the message list
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="T:Chat.Net.TCPClient">
+            <summary>
+            Each client has a TCPClient instance, which contains a TcpClient object
+            as well as the server's IPAddress and port, and a boolean used to know when to quit
+            </summary>
+        </member>
+        <member name="M:Chat.Net.TCPClient.connect">
+            <summary>
+            Connect to the server
+            </summary>
+        </member>
+        <member name="M:Chat.Net.TCPClient.getMessage">
+            <summary>
+            Get a message from the server.
+            Deserialize the object message received and return it
+            </summary>
+            <returns>Message object received</returns>
+        </member>
+        <member name="M:Chat.Net.TCPClient.sendMessage(Chat.Net.Message)">
+            <summary>
+            Send a message to the server
+            </summary>
+            <param name="message">Message to send</param>
+        </member>
+        <member name="T:Chat.Net.TCPServer">
+            <summary>
+            TCPServer
+            </summary>
+        </member>
+        <member name="M:Chat.Net.TCPServer.startServer(System.Int32)">
+            <summary>
+            Start the server, locally
+            </summary>
+            <param name="port"></param>
+        </member>
+        <member name="M:Chat.Net.TCPServer.stopServer">
+            <summary>
+            Stop the server
+            </summary>
+        </member>
+        <member name="M:Chat.Net.TCPServer.getMessage(System.Net.Sockets.Socket)">
+            <summary>
+            Get a message object from a given client
+            </summary>
+            <param name="socket">Client to listen to</param>
+            <returns>Deserialized Message object</returns>
+        </member>
+        <member name="M:Chat.Net.TCPServer.sendMessage(Chat.Net.Message,System.Net.Sockets.Socket)">
+            <summary>
+            Send a message to a given client
+            </summary>
+            <param name="message">Message to send</param>
+            <param name="socket">Client to send the message to</param>
+        </member>
+    </members>
+</doc>

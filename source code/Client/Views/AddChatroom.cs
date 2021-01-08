@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using ChatMessage = Chat.Net.Message;
 
@@ -100,7 +95,7 @@ namespace Client.Views
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Error);
             }
-            
+
         }
 
         private void Cancel_Click(object sender, EventArgs e)

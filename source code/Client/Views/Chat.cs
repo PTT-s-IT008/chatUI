@@ -1,16 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using Chat.Auth;
+﻿using Chat.Auth;
 using Chat.Chat;
-using Chat.Net;
+using System;
+using System.Drawing;
+using System.Threading;
+using System.Windows.Forms;
 using ChatMessage = Chat.Net.Message;
 
 namespace Client.Views
@@ -151,17 +144,17 @@ namespace Client.Views
                     {
                         // We need to invoke chatrooms (UI thread) to see the selected index
                         chatrooms.BeginInvoke(
-                            (Action) (() =>
-                            {
+                            (Action)(() =>
+                           {
                                 // If we are indeed connected to a chatroom
                                 if (chatrooms.Text != "")
-                                {
-                                    ChatMessage messageUsers = new ChatMessage(ChatMessage.Header.LIST_USERS);
-                                    messageUsers.addData(chatrooms.Text);
+                               {
+                                   ChatMessage messageUsers = new ChatMessage(ChatMessage.Header.LIST_USERS);
+                                   messageUsers.addData(chatrooms.Text);
 
-                                    client.sendMessage(messageUsers);
-                                }
-                            })
+                                   client.sendMessage(messageUsers);
+                               }
+                           })
                         );
 
                         Thread.Sleep(2000);
@@ -173,11 +166,11 @@ namespace Client.Views
                 }
             }
 
-            
+
         }
 
-        
-       
+
+
         /// <summary>
         /// Periodically check availables chatrooms (from a thread)
         /// </summary>
@@ -276,7 +269,7 @@ namespace Client.Views
             userlist.DataSource = usersBindingList;
 
 
-            
+
 
             messagesBindingList = new ThreadedBindingList<string>();
             client.MessagesBindingList = messagesBindingList;

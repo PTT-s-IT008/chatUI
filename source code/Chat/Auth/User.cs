@@ -1,6 +1,5 @@
-﻿using System;
-using System.Net.Sockets;
-using Chat.Chat;
+﻿using Chat.Chat;
+using System;
 
 namespace Chat.Auth
 {

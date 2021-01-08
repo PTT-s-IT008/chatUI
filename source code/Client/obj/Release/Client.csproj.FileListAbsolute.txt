@@ -1,0 +1,17 @@
+D:\GitHubRepo\chatUI\source code\Client\bin\Release\Client.exe.config
+D:\GitHubRepo\chatUI\source code\Client\bin\Release\Client.exe
+D:\GitHubRepo\chatUI\source code\Client\bin\Release\Client.pdb
+D:\GitHubRepo\chatUI\source code\Client\bin\Release\Chat.dll
+D:\GitHubRepo\chatUI\source code\Client\bin\Release\Chat.pdb
+D:\GitHubRepo\chatUI\source code\Client\bin\Release\Chat.dll.config
+D:\GitHubRepo\chatUI\source code\Client\obj\Release\Client.csprojAssemblyReference.cache
+D:\GitHubRepo\chatUI\source code\Client\obj\Release\Client.Properties.Resources.resources
+D:\GitHubRepo\chatUI\source code\Client\obj\Release\Client.Views.AddChatroom.resources
+D:\GitHubRepo\chatUI\source code\Client\obj\Release\Client.Views.Chat.resources
+D:\GitHubRepo\chatUI\source code\Client\obj\Release\Client.Views.UserLogin.resources
+D:\GitHubRepo\chatUI\source code\Client\obj\Release\Client.Views.Welcome.resources
+D:\GitHubRepo\chatUI\source code\Client\obj\Release\Client.csproj.GenerateResource.cache
+D:\GitHubRepo\chatUI\source code\Client\obj\Release\Client.csproj.CoreCompileInputs.cache
+D:\GitHubRepo\chatUI\source code\Client\obj\Release\Client.csproj.CopyComplete
+D:\GitHubRepo\chatUI\source code\Client\obj\Release\Client.exe
+D:\GitHubRepo\chatUI\source code\Client\obj\Release\Client.pdb

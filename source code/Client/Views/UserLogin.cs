@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using ChatMessage = Chat.Net.Message;
 using ChatUser = Chat.Auth.User;
@@ -96,7 +91,7 @@ namespace Client.Views
                 return;
             }
 
-            if ( reply.MessageList.First() == "success" )
+            if (reply.MessageList.First() == "success")
             {
                 client.User = new ChatUser(usernameTextBox.Text, passwordTextBox.Text);
                 var frm = new Chat(client);
@@ -140,7 +135,7 @@ namespace Client.Views
             }
             else
             {
-                 client.sendMessage(messageRegister);
+                client.sendMessage(messageRegister);
 
                 ChatMessage register = client.getMessage();
 
@@ -192,7 +187,7 @@ namespace Client.Views
             Welcome frm = new Welcome();
             frm.Show();
             this.Hide();
-            
+
         }
 
         private void UserLogin_FormClosed(object sender, FormClosedEventArgs e)

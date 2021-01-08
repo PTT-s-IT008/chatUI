@@ -1,10 +1,8 @@
-﻿using System;
+﻿using Chat.Exceptions;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Chat.Exceptions;
 using System.IO;
+using System.Linq;
 using System.Runtime.Serialization.Formatters.Binary;
 
 namespace Chat.Chat
@@ -67,7 +65,7 @@ namespace Chat.Chat
             {
                 if (chatroom.Name == name)
                 {
-                   chatroomToDelete = chatroom;
+                    chatroomToDelete = chatroom;
                 }
             }
 

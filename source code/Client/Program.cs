@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Net;
+﻿using Client.Views;
 using System.Windows.Forms;
-using Chat.Net;
-using Client.Views;
 
 namespace Client
 {

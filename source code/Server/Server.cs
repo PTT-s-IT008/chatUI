@@ -1,14 +1,12 @@
-﻿using System;
+﻿using Chat.Auth;
+using Chat.Chat;
+using Chat.Exceptions;
+using Chat.Net;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Chat.Net;
-using Chat.Auth;
-using Chat.Exceptions;
-using Chat.Chat;
-using System.Threading;
 using System.Net.Sockets;
+using System.Threading;
 
 namespace Server
 {
@@ -20,7 +18,7 @@ namespace Server
         UserManager userManager;
         SessionManager sessionManager;
         ChatroomManager chatroomManager;
-        
+
         public volatile Object readLock;
 
         /// <summary>
@@ -151,11 +149,11 @@ namespace Server
                         }
                     }
                 }
-                catch(InvalidOperationException e)
+                catch (InvalidOperationException e)
                 {
                     Console.WriteLine(e.Message);
                 }
-                
+
                 Thread.Sleep(5);
             }
         }
@@ -215,12 +213,12 @@ namespace Server
                             messageSuccess.addData("success");
                             sendMessage(messageSuccess, session.Client.Client);
 
-                            if(session.User.Chatroom != null)
+                            if (session.User.Chatroom != null)
                             {
                                 // Warn the other users that he left
                                 broadcastToChatRoom(session, "left the chatroom \"" + session.User.Chatroom.Name + "\"");
                             }
-                            
+
                             session.Client.Close();
                             sessionManager.removeSession(session.Token);
 
@@ -312,13 +310,13 @@ namespace Server
                         string chatroomWanted = chatroomWantedList[0];
 
                         Message messageListUsers = new Message(Message.Header.LIST_USERS);
-                        
+
                         // For all users currently connected
                         foreach (Session localSession in SessionManager.SessionList.ToList())
                         {
                             // If the user is in the chatroom we want the userlist
                             if (localSession.User != null &&
-                                localSession.User.Chatroom != null && 
+                                localSession.User.Chatroom != null &&
                                 localSession.User.Chatroom.Name == chatroomWanted)
                             {
                                 messageListUsers.addData(localSession.User.Login);
@@ -378,7 +376,7 @@ namespace Server
                             Message messageSuccess = new Message(Message.Header.JOIN);
                             messageSuccess.addData("error");
                             sendMessage(messageSuccess, session.Client.Client);
-                            
+
                             Console.WriteLine("- Login failed : " + e.Message);
                         }
 
@@ -402,9 +400,9 @@ namespace Server
                     {
                         Console.WriteLine("- User logged out : " + SessionManager.SessionList[i].Token);
 
-                        lock(readLock)
+                        lock (readLock)
                         {
-                            if (SessionManager.SessionList[i].User != null && 
+                            if (SessionManager.SessionList[i].User != null &&
                                 SessionManager.SessionList[i].User.Chatroom != null)
                             {
                                 // Tell the other users that he left
@@ -431,15 +429,15 @@ namespace Server
         {
             Chatroom chatroom = session.User.Chatroom;
 
-            if(chatroom != null && message != "")
+            if (chatroom != null && message != "")
             {
                 Message messageJoin = new Message(Message.Header.POST);
                 messageJoin.addData(session.User.Login);
-                messageJoin.addData(session.User.Login+": " + message);
+                messageJoin.addData(session.User.Login + ": " + message);
 
-                foreach(Session sessionUser in SessionManager.SessionList.ToList())
+                foreach (Session sessionUser in SessionManager.SessionList.ToList())
                 {
-                    if(sessionUser.User.Chatroom != null && 
+                    if (sessionUser.User.Chatroom != null &&
                         sessionUser.User.Chatroom.Name == chatroom.Name)
                     {
                         sendMessage(messageJoin, sessionUser.Client.Client);

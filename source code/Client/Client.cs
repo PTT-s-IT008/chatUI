@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Chat.Net;
-using Chat.Auth;
+﻿using Chat.Auth;
 using Chat.Chat;
-using System.Threading;
+using Chat.Net;
+using System;
+using System.Linq;
 using System.Net.Sockets;
+using System.Threading;
 
 namespace Client
 {
@@ -166,7 +162,7 @@ namespace Client
             Quit = false;
             logged = false;
         }
-       
+
         /// <summary>
         /// Launch what we need for the client
         /// First a thread to check the connection and process the data sent by the server
@@ -240,7 +236,7 @@ namespace Client
             switch (message.Head)
             {
                 case Message.Header.REGISTER:
-                    if(message.MessageList[0] == "success")
+                    if (message.MessageList[0] == "success")
                     {
                         Console.WriteLine("- Registration success: " + User.Login);
                     }
@@ -335,6 +331,6 @@ namespace Client
             }
         }
 
-        
+
     }
 }

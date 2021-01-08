@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Text;
 using System.IO;
+using System.Text;
 using System.Windows.Forms;
 
 namespace Server.Views
@@ -25,16 +25,16 @@ namespace Server.Views
             // multi line appending source: http://stackoverflow.com/questions/8536958/how-to-add-a-line-to-a-multiline-textbox
             try
             {
-                _output.Invoke((MethodInvoker) (() =>
-                {
-                    _output.AppendText(value.ToString());
-                }));
+                _output.Invoke((MethodInvoker)(() =>
+               {
+                   _output.AppendText(value.ToString());
+               }));
             }
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
             }
-            
+
         }
 
         public override Encoding Encoding
@@ -42,4 +42,4 @@ namespace Server.Views
             get { return System.Text.Encoding.UTF8; }
         }
     }
- }
+}

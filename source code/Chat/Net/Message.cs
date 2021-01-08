@@ -1,9 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Remoting.Messaging;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Chat.Net
 {
@@ -15,7 +11,7 @@ namespace Chat.Net
     [Serializable]
     public class Message
     {
-        public enum Header { REGISTER, JOIN, QUIT, JOIN_CR, QUIT_CR, CREATE_CR, LIST_CR, POST, LIST_USERS,ICON }
+        public enum Header { REGISTER, JOIN, QUIT, JOIN_CR, QUIT_CR, CREATE_CR, LIST_CR, POST, LIST_USERS, ICON }
         private Header head;
         private List<string> messageList;
 

@@ -153,6 +153,11 @@ namespace Client.Views
                         "Registration success.",
                          MessageBoxButtons.OK,
                          MessageBoxIcon.Information);
+
+                    Welcome frm = new Welcome();
+                    frm.Show();
+                    this.Hide();
+
                 }
                 else if (register.MessageList.First() == "error")
                 {
